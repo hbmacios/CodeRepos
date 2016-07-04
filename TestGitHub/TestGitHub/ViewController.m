@@ -23,6 +23,12 @@
     icount = 0;
 }
 
+
+-(void)myfun
+{
+    NSLog(@"myfun");
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
